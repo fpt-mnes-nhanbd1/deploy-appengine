@@ -23,6 +23,8 @@ import (
 	"log"
 	"net/http"
 	"os"
+
+	v1 "github.com/fpt-mnes-nhanbd1/deploy-appengine/api-v1"
 )
 
 // [END import]
@@ -53,7 +55,7 @@ func indexHandler(w http.ResponseWriter, r *http.Request) {
 		http.NotFound(w, r)
 		return
 	}
-	fmt.Fprint(w, "Hello, World!")
+	fmt.Fprint(w, v1.ApiV1())
 }
 
 // [END indexHandler]
