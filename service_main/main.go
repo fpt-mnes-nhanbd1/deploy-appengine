@@ -24,7 +24,7 @@ import (
 	"net/http"
 	"os"
 
-	v1 "github.com/fpt-mnes-nhanbd1/deploy-appengine/api-v1"
+	v1 "github.com/fpt-mnes-nhanbd1/deploy-appengine/go_src/api-v1"
 )
 
 // [END import]
