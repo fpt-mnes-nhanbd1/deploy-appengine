@@ -24,7 +24,7 @@ import (
 	"net/http"
 	"os"
 
-	v1 "github.com/fpt-mnes-nhanbd1/deploy-appengine/go_src/api-v1"
+	v3 "github.com/fpt-mnes-nhanbd1/deploy-appengine/src/go_src/api-v3"
 )
 
 // [END import]
@@ -55,7 +55,7 @@ func indexHandler(w http.ResponseWriter, r *http.Request) {
 		http.NotFound(w, r)
 		return
 	}
-	fmt.Fprint(w, v1.ApiV1())
+	fmt.Fprint(w, v3.ApiV3())
 }
 
 // [END indexHandler]
