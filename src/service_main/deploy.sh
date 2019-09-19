@@ -1,1 +1,0 @@
-gcloud app deploy app.yaml --project=mnes-fpt-lookrec-dev3 --version=nhantest -q --no-promote
