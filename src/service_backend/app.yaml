@@ -1,2 +1,2 @@
-service: maintenance
+service: default
 runtime: go111

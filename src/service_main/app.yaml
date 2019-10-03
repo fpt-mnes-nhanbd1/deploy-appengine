@@ -1,2 +1,2 @@
-service: maintenance
+service: maintenance1
 runtime: go111
