@@ -50,13 +50,7 @@ func main() {
 // [START indexHandler]
 
 // indexHandler responds to requests with our greeting.
-func indexHandler(w http.ResponseWriter, r *http.Request) {
-	if r.URL.Path != "/" {
-		http.NotFound(w, r)
-		return
-	}
-	fmt.Fprint(w, Abc())
-}
+
 
 // [END indexHandler]
 // [END gae_go111_app]
